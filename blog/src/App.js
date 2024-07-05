@@ -79,7 +79,7 @@ function Modal(props){
         <h4>{props.제목[props.title]}</h4>
         <p>날짜</p>
         <p>상세내용</p>
-        <button onClick={()=> { props.글제목변경(['여자코트 추천','강남 우동맛집','파이썬 독학']) }}>글수정</button>
+        <button onClick={()=> { props.글제목변경(['똥깅이 추천','강남 우동맛집','파이썬 독학']) }}>글수정</button>
       </div>
     </>
   )
